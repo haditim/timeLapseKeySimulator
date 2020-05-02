@@ -1,8 +1,10 @@
-This script simulated volume key press with a given interval to issue a shutter
-on android devices. I use this to make timelapse using several photos over a
-long time with the default camera app or Gcam.
+This script simulates infinite number of volume key press with a given interval
+to issue  camera shutter on android devices. I use this to make timelapse using
+several photos over a long time with the default camera app or Gcam.
 #+CAPTION: This is the screenshot on Termux
 [[https://raw.githubusercontent.com/haditim/timeLapseKeySimulator/master/screenshot.jpg]]
+
+Once you gather all the photos, you can use [[https://hadi.timachi.com/2018/10/18/Timelapse_video_using_photos_taken_with_an_android_phone][this tutorial]] to make a video out of them.
 
 * Usage
 You need to have busybox installed. Copy the script to you phone. Start Termux or any other terminal emulator app
